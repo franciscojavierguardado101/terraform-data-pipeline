@@ -1,0 +1,7 @@
+aws_region  = "us-east-1"
+gcp_project = "project-a4c03abc-9f6e-4935-bdc"
+gcp_region  = "us-central1"
+environment = "staging"
+db_name     = "pipeline_staging"
+db_username = "pipeline_admin"
+# db_password is NOT here — set it with: export TF_VAR_db_password="yourpassword"

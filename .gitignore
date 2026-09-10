@@ -1,0 +1,10 @@
+# Terraform generated files — never commit these
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Mac junk
+.DS_Store
