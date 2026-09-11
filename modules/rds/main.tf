@@ -1,7 +1,7 @@
 # Security group — controls who can connect to the database
 resource "aws_security_group" "rds" {
   name        = "${var.environment}-rds-sg"
-  description = "Security group for RDS PostgreSQL — only allows inbound on port 5432"
+  description = "Security group for RDS PostgreSQL - only allows inbound on port 5432"
   vpc_id      = var.vpc_id
 
   ingress {
